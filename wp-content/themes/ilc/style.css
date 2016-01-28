@@ -490,6 +490,8 @@ img.flex {
         display: block; }
   .main-navigation .menu-primary-menu-container {
     margin: auto; }
+  .main-navigation .submenu {
+    display: none; }
 
 .search-container input.search-submit {
   position: absolute;
