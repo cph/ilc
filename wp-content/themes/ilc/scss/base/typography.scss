@@ -1,0 +1,153 @@
+/* Typography */
+body { 
+  @include font-size(14);
+  @include line-height (24);
+  font-family: $primary-font;
+}
+h1 {
+  font-size: modular-scale(4);
+  font-family: $secondary-font;
+  font-weight: 900;
+  margin:.35em 0;
+  span {
+    font-size: 80%;
+    opacity: .4;
+  }
+}
+
+h2 {
+  font-size: modular-scale(3);
+  font-family: $secondary-font;
+  font-weight: 900;
+  margin:.35em 0;
+  // span {
+  //   font-size: 80%;
+  //   opacity: .4;
+  // }
+}
+h3 {
+  font-size: modular-scale(2);
+  font-family: $secondary-font;
+  font-weight: 900;
+  margin:.25em 0;
+
+  span {
+    font-size: 80%;
+    opacity: .4;
+  }
+}
+h4 {
+  font-size: modular-scale(1);
+  font-family: $secondary-font;
+  font-weight: 900;
+  margin:0.35em 0;
+  span {
+    font-size: 80%;
+    opacity: .4;
+  }
+}
+
+h5, h6 {
+  font-size: modular-scale(1);
+  font-family: $secondary-font;
+  font-weight: 900;
+  margin:0.35em 0;
+}
+
+h1 + h2 {
+  margin-top:0
+}
+
+p {
+  margin-bottom: 30px;
+  color:$grey;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+  text-decoration: none;
+}
+
+
+p + h2, p + h3 {
+    margin-top: 50px;
+}
+
+p + h4 {
+  margin-top:30px;
+}
+
+.lead {
+  font-size: 1.25em;
+  @include breakpoint (small) {font-size: 1.45em;}
+  // line-height: 1.45;
+  // letter-spacing: .05rem;
+  // font-family: $secondary-font;
+  margin-bottom:40px;
+  // @include breakpoint (small) {padding:30px;}
+  // background: $lite-blue;
+  color:$grey;
+}
+
+.fine-print {
+  font-size: 0.85em;
+  color:$grey;
+}
+/* Blockquote */
+blockquote {
+  line-height: 1.6;
+  font-weight: 100;
+  padding: 30px 0;
+  margin-bottom: 60px;
+  @media (min-width:1475px) {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+  font-size: 1.4em;
+  // font-style: italic;
+  text-align: center;
+  color: rgba($grey, 0.8);
+
+  > p {
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
+em {
+  font-style: italic;
+}
+strong, b {
+  font-weight: 900;
+}
+
+q {
+  quotes: "“" "”" "‘" "’"; 
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+li {
+  margin-left: 30px;
+  margin-bottom: 14px;
+}
+
+.bullet-list {
+  list-style-type: disc; 
+}
+
+.small-list {
+  margin-top:0;
+    li {
+      margin:0;
+    }
+}
+
+.verse {
+  white-space: nowrap;
+}

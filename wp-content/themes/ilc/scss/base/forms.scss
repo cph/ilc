@@ -1,0 +1,52 @@
+/* Input design */
+
+fieldset {
+  border: 0;
+}
+
+input[type=text], input[type=password], input[type=url], input[type=tel], input[type=email], input[type=number], input[type=search], textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color;
+  -moz-transition: border-color;
+  transition: border-color;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #D6DBDE;
+  display: block;
+  font-size: 1em;
+  margin:3px 0 16px;
+  padding:0.75em 1em;
+  position: relative;
+  width: 100%;
+  transition: all 800ms ease;
+  font-family: $primary-font;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input[type=email]:focus, input[type=number]:focus, input[type=search]:focus, textarea:focus {
+  border-color: #F7F8F9;
+  outline:none;
+}
+
+input {
+  @include placeholder {
+    font-style: italic;
+  }
+}
+
+label {
+  font-size: .8em;
+}
+label.required:after, legend.required:after {
+  content: '*';
+  color: #c42031;
+  margin-left: 3px;
+}
+form.button-inset {
+  position: relative;
+}

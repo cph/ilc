@@ -1,0 +1,51 @@
+/*
+Theme Name: International Lutheran Council (ILC)
+Theme URI: http://ilc-online.org/
+Author: Concordia Publishing House
+Author URI: http://cph.org
+Description: Custom theme developed for the International Lutheran Council (ILC).
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ilc
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ilc is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import "bourbon", "neat";
+
+// ----------------------------------------------------------------------
+  // Base
+// ----------------------------------------------------------------------
+@import "base/reset";
+@import "base/_mixins";
+@import "base/fonts";
+@import "base/icons";
+@import "base/typography";
+@import "base/forms";
+
+// ----------------------------------------------------------------------
+  // Layout
+// ----------------------------------------------------------------------
+@import "layout/grid";
+@import "layout/global";
+@import "layout/scaffolding";
+// ----------------------------------------------------------------------
+  // Modules
+// ----------------------------------------------------------------------
+@import "modules/header";
+// ----------------------------------------------------------------------
+  // Components
+// ----------------------------------------------------------------------
+
+// ----------------------------------------------------------------------
+	// Views
+// ----------------------------------------------------------------------
