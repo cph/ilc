@@ -116,7 +116,7 @@ define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 ```
 
-And finally, if you’re not using the a default theme, and want to specify the one WordPress should use instead:
+If you’re not using the a default theme, and want to specify the one WordPress should use instead:
 
 ```
 define('WP_DEFAULT_THEME', 'mytheme');
@@ -129,3 +129,4 @@ Now simply complete the database details as normal further down in the file, and
 ```
 git commit -am "Update settings in wp-config.php"
 ```
+Remove all of the WP files from `wordpress` **except** `wp-config.php`.
