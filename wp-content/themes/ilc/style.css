@@ -468,7 +468,6 @@ img.flex {
 
 .main-navigation {
   width: 100%;
-  display: inline-block;
   border-top: 1px solid #e9f0f5; }
   .main-navigation ul {
     text-transform: uppercase;
@@ -490,8 +489,6 @@ img.flex {
         display: block; }
   .main-navigation .menu-primary-menu-container {
     margin: auto; }
-  .main-navigation .submenu {
-    display: none; }
 
 .search-container input.search-submit {
   position: absolute;
@@ -509,3 +506,12 @@ img.flex {
 .search-container input.search-field {
   position: absolute;
   padding: 0.5em; }
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+  display: table-cell;
+  width: 1%; }
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase; }

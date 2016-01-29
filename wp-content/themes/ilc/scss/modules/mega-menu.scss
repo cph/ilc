@@ -1,0 +1,10 @@
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+display: table-cell;
+width: 1%;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+	text-align: center;
+	font-family: $secondary-font;
+	text-transform: uppercase;
+}
