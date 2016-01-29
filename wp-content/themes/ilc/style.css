@@ -490,6 +490,15 @@ img.flex {
   .main-navigation .menu-primary-menu-container {
     margin: auto; }
 
+header .secondary-navigation ul li:last-child a {
+  background: #ec6041;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  color: white;
+  padding: 8px 12px; }
+
 .search-container input.search-submit {
   position: absolute;
   top: 10px;
