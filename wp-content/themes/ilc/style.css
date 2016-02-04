@@ -134,8 +134,8 @@ table {
 body {
   font-size: 14px;
   font-size: 0.98rem;
-  line-height: 24px;
-  line-height: 1.68rem;
+  line-height: 22px;
+  line-height: 1.54rem;
   font-family: "Lato", sans-serif; }
 
 h1 {
@@ -182,7 +182,7 @@ h1 + h2 {
 
 p {
   margin-bottom: 30px;
-  color: #323232; }
+  color: #737d85; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
   text-decoration: none; }
@@ -196,14 +196,14 @@ p + h4 {
 .lead {
   font-size: 1.25em;
   margin-bottom: 40px;
-  color: #323232; }
+  color: #737d85; }
   @media (min-width: 37.5em) {
     .lead {
       font-size: 1.45em; } }
 
 .fine-print {
   font-size: 0.85em;
-  color: #323232; }
+  color: #737d85; }
 
 /* Blockquote */
 blockquote {
@@ -213,7 +213,7 @@ blockquote {
   margin-bottom: 60px;
   font-size: 1.4em;
   text-align: center;
-  color: rgba(50, 50, 50, 0.8); }
+  color: rgba(115, 125, 133, 0.8); }
   @media (min-width: 1475px) {
     blockquote {
       margin-left: -100px;
@@ -304,12 +304,85 @@ label.required:after, legend.required:after {
 form.button-inset {
   position: relative; }
 
+.button-inset button[type=submit] {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  bottom: 0em;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  outline: none;
+  padding-right: 25px;
+  padding-left: 25px; }
+
+/* Buttons */
+.button, .button:visited {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid #3999d8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #3999d8;
+  font-size: 0.75em;
+  text-shadow: none;
+  box-shadow: none; }
+
+.button-primary, .button-primary:visited {
+  background: #ec6041;
+  color: white;
+  border-color: #ec6041; }
+
+.button-primary:hover {
+  color: white; }
+
+.button-secondary, .button-secondary:visited {
+  background: #efb333;
+  color: white;
+  border-color: #efb333; }
+
+.button-disabled, .button-disabled:visited {
+  filter: alpha(opacity=65);
+  opacity: .65;
+  cursor: not-allowed; }
+
+.button-tertiary, .button-tertiary:visited {
+  background-color: #3999d8;
+  color: white;
+  border-color: #3999d8; }
+
+.button-large {
+  font-size: 1.125em;
+  padding: 18px 32px;
+  border-radius: 6px; }
+
+.button-small {
+  font-size: .7em;
+  padding: 4px 8px; }
+
+.button-link {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 3px;
+  border-bottom: 2px solid;
+  border-radius: 0; }
+
+.button [class^="fa"] {
+  margin-left: 2px; }
+
+.vc_btn, a.vc_btn, button.vc_btn {
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase; }
+
 /*--------------------------------------------------------------
 # Grid
 --------------------------------------------------------------*/
 /* Global */
 body {
-  margin: 0; }
+  margin: 0;
+  height: 100%; }
 
 a {
   color: #3999d8;
@@ -371,7 +444,7 @@ img.flex {
       color: #7e6c6d; }
   .bar h3 {
     margin-bottom: 1.3em;
-    color: rgba(54, 75, 89, 0.3); }
+    color: rgba(4, 42, 70, 0.3); }
   .bar h4 {
     text-transform: none;
     margin-top: 0;
@@ -404,7 +477,7 @@ img.flex {
   margin-bottom: 25px; }
 
 .container, .site-main {
-  max-width: 68em;
+  max-width: 73.75em;
   margin-left: auto;
   margin-right: auto; }
   .container, .site-main {
@@ -524,3 +597,50 @@ header .secondary-navigation ul li:last-child a {
   text-align: center;
   font-family: "Roboto Slab", serif;
   text-transform: uppercase; }
+
+.latest-posts {
+  background: #f0f0f0;
+  height: 100%;
+  padding: 3em 0 4em; }
+  .latest-posts h2 {
+    text-transform: uppercase;
+    color: #737d85;
+    font-family: "Lato", sans-serif;
+    font-size: 1.35em;
+    text-align: center;
+    margin-bottom: 1.5em; }
+  .latest-posts .post-container {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%;
+    background: white;
+    height: 100%; }
+    .latest-posts .post-container:last-child {
+      margin-right: 0; }
+  .latest-posts .post-image {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 40.2913699012%;
+    height: 100%;
+    min-height: 300px; }
+    .latest-posts .post-image:last-child {
+      margin-right: 0; }
+  .latest-posts .post-content {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 57.3509785009%;
+    padding: 2em; }
+    .latest-posts .post-content:last-child {
+      margin-right: 0; }
+    .latest-posts .post-content h4 a {
+      color: #042a46; }
+    .latest-posts .post-content p {
+      font-size: 12px;
+      font-size: 0.84rem;
+      line-height: 18px;
+      line-height: 1.26rem;
+      margin-bottom: 1em;
+      color: #737d85; }

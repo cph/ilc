@@ -1,0 +1,80 @@
+.button-inset button[type=submit] {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  bottom: 0em;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  outline: none;
+  padding-right:25px;
+  padding-left:25px;
+}
+/* Buttons */
+
+.button, .button:visited {
+  display: inline-block;
+  padding:4px 12px;
+  border-radius: 6px;
+  border: 1px solid $link-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: $link-color;
+  font-size: 0.75em;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.button-primary, .button-primary:visited {
+  background:$orange;
+  color: white;
+  border-color: $orange;
+}
+.button-primary:hover { color: white;}
+
+.button-secondary, .button-secondary:visited {
+  background: $gold;
+  color: white;
+  border-color: $gold;
+}
+
+.button-disabled, .button-disabled:visited {
+  filter: alpha(opacity=65);
+  opacity: .65;
+  cursor: not-allowed;
+}
+
+.button-tertiary, .button-tertiary:visited {
+  background-color: $blue;
+  color:white;
+  border-color: $blue;
+}
+
+.button-large {
+  font-size: 1.125em;
+  padding: 18px 32px;
+  border-radius: 6px;
+}
+
+.button-small {
+  font-size: .7em;
+  padding:4px 8px;
+}
+.button-link {
+  border:none;
+  padding-left:0;
+  padding-right: 0;
+  padding-bottom: 3px;
+  border-bottom: 2px solid;
+  border-radius: 0;
+}
+
+.button [class^="fa"] {
+  // vertical-align: -10%;
+  margin-left: 2px;
+}
+
+.vc_btn, a.vc_btn, button.vc_btn {
+  font-family: $secondary-font;
+  text-transform: uppercase;
+}

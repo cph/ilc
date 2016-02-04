@@ -31,6 +31,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "base/icons";
 @import "base/typography";
 @import "base/forms";
+@import "base/buttons";
 
 // ----------------------------------------------------------------------
   // Layout
@@ -46,7 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 // ----------------------------------------------------------------------
   // Components
 // ----------------------------------------------------------------------
-
+@import "components/home/latest-posts";
 // ----------------------------------------------------------------------
 	// Views
 // ----------------------------------------------------------------------
