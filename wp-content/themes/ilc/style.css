@@ -785,10 +785,36 @@ span.tags-links {
 
 .navigation.post-navigation {
   margin-bottom: 2em;
-  border-top: 1px solid #f0f0f0;
   padding-top: 2em; }
 
 article {
   margin-bottom: 4em;
   padding-bottom: 4em;
   border-bottom: 1px solid #737d85; }
+
+.nav-links .nav-previous {
+  width: 50%;
+  float: left; }
+  .nav-links .nav-previous:before {
+    content: 'Previous Post';
+    font-size: 12px;
+    font-size: 0.84rem;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    color: #737d85;
+    padding-left: 1em; }
+.nav-links .nav-next {
+  width: 50%;
+  float: left; }
+  .nav-links .nav-next:before {
+    content: 'Next Post';
+    float: right;
+    font-size: 12px;
+    font-size: 0.84rem;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    color: #737d85;
+    padding-left: 1em; }
+.nav-links a {
+  padding: 1em;
+  display: inline-block; }

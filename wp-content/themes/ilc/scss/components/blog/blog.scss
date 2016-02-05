@@ -65,7 +65,7 @@ span.tags-links {
 
 .navigation.post-navigation {
 	margin-bottom: 2em;
-	border-top: 1px solid $lite-grey;
+	// border-top: 1px solid $lite-grey;
 	padding-top: 2em;
 }
 
@@ -75,3 +75,36 @@ article {
 	border-bottom: 1px solid $grey;
 }
 
+.nav-links {
+	.nav-previous {
+	  width: 50%;
+	  float: left;
+
+	  &:before {
+	  	content: 'Previous Post';
+	  	@include font-size(12);
+	  	text-transform: uppercase;
+	  	font-family: $secondary-font;
+	  	color: $grey;
+	  	padding-left: 1em;
+	  	}
+	  }
+	  .nav-next {
+	  	width: 50%;
+	  	float: left;
+	  	
+	  	&:before {
+	  	content: 'Next Post';
+	  	float: right;
+	  	@include font-size(12);
+	  	text-transform: uppercase;
+	  	font-family: $secondary-font;
+	  	color: $grey;
+	  	padding-left: 1em;
+	  	}
+	  }
+  a {
+  	padding: 1em;
+  	display: inline-block;
+  	}
+}
