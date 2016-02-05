@@ -588,6 +588,22 @@ header .secondary-navigation ul li:last-child a {
   position: absolute;
   padding: 0.5em; }
 
+footer {
+  padding: 2em 0; }
+  footer .site-info {
+    text-align: center;
+    font-size: 12px;
+    font-size: 0.84rem;
+    color: #737d85; }
+  footer ul#secondary-menu li:last-child a {
+    background: #ec6041;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    color: white;
+    padding: 8px 12px; }
+
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
   display: table-cell;
   width: 1%; }
