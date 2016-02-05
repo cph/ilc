@@ -19,9 +19,10 @@
 			margin-bottom: 1em;
 		}
 	}
-	.button {
+	.button, button {
 		background: $link-color;
 		border: none;
+		font-family: $primary-font;
 	}
 
 }
