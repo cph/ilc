@@ -5,7 +5,8 @@ body {
   font-family: $primary-font;
 }
 h1 {
-  font-size: modular-scale(4);
+  @include font-size(32);
+  @include line-height (36);
   font-family: $secondary-font;
   font-weight: 900;
   margin:.35em 0;
@@ -16,7 +17,8 @@ h1 {
 }
 
 h2 {
-  font-size: modular-scale(3);
+  @include font-size(28);
+  @include line-height (32);
   font-family: $secondary-font;
   font-weight: 900;
   margin:.35em 0;
@@ -26,7 +28,8 @@ h2 {
   // }
 }
 h3 {
-  font-size: modular-scale(2);
+  @include font-size(20);
+  @include line-height (24);
   font-family: $secondary-font;
   font-weight: 900;
   margin:.25em 0;
@@ -37,7 +40,8 @@ h3 {
   }
 }
 h4 {
-  font-size: modular-scale(1);
+  @include font-size(16);
+  @include line-height (20);
   font-family: $secondary-font;
   font-weight: 900;
   margin:0.35em 0;

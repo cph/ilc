@@ -12,21 +12,21 @@ if ( ! function_exists( 'ilc_posted_on' ) ) :
  * Prints HTML with meta information for the current post-date/time and author.
  */
 function ilc_posted_on() {
-	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+	$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
 		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
 	}
 
 	$time_string = sprintf( $time_string,
 		esc_attr( get_the_date( 'c' ) ),
-		esc_html( get_the_date() ),
+		esc_html( get_the_date() ),	
 		esc_attr( get_the_modified_date( 'c' ) ),
-		esc_html( get_the_modified_date() )
+		esc_html( get_the_modified_date() ) 
 	);
 
 	$posted_on = sprintf(
 		esc_html_x( 'Posted on %s', 'post date', 'ilc' ),
-		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		'' . $time_string . ''
 	);
 
 	$byline = sprintf(
@@ -50,12 +50,12 @@ function ilc_entry_footer() {
 		$categories_list = get_the_category_list( esc_html__( ', ', 'ilc' ) );
 		if ( $categories_list && ilc_categorized_blog() ) {
 			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'ilc' ) . '</span>', $categories_list ); // WPCS: XSS OK.
-		}
+		}	
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'ilc' ) );
+		$tags_list = get_the_tag_list( '', esc_html__( ' ', 'ilc' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'ilc' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+			printf( '<span class="tags-links">' . esc_html__( '%1$s', 'ilc' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 		}
 	}
 
@@ -68,7 +68,7 @@ function ilc_entry_footer() {
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */
-			esc_html__( 'Edit %s', 'ilc' ),
+			esc_html__( 'Edit Post %s', 'ilc' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
 		'<span class="edit-link">',

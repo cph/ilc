@@ -14,14 +14,14 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-blog">
 		<main id="main" class="site-main" role="main">
 
 		<?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) : ?>
-				<header>
+				<header class="page-title">
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
 
@@ -52,5 +52,5 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+// get_sidebar();
 get_footer();

@@ -109,14 +109,15 @@ img.flex {
   }
 }
 
-.three-bar-grid {
-  @include columns(3);
-  .bar {
-    display: inline-block;
-    text-align: center;
-  }
+figure {
+  margin-bottom: 40px;
 }
 
+figcaption {
+  @include font-size(12);
+  @include line-height (18);
+  color: $grey;
+}
 
 .alignleft {
   float: left;
@@ -125,7 +126,7 @@ img.flex {
 }
 
 .alignright {
-  float: left;
+  float: right;
   margin-left:25px;
   margin-bottom: 25px;
 }
