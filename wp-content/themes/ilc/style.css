@@ -496,9 +496,17 @@ img.flex {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 57.3509785009%; }
+    width: 65.8807828007%; }
     .content-area #main:last-child {
       margin-right: 0; }
+
+#aside {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%; }
+  #aside:last-child {
+    margin-right: 0; }
 
 .site-header {
   border-bottom: 1px solid #f0f0f0;
@@ -512,41 +520,45 @@ img.flex {
   .site-branding:last-child {
     margin-right: 0; }
 
-.secondary-navigation {
+header .secondary-navigation {
+  display: none; }
+  @media (min-width: 50em) {
+    header .secondary-navigation {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 74.4105871005%;
+      margin-right: 0; }
+      header .secondary-navigation:last-child {
+        margin-right: 0; } }
+
+.secondary-navigation ul {
+  text-align: right;
+  font-size: 12px;
+  font-size: 0.84rem; }
+  .secondary-navigation ul li {
+    display: inline-block;
+    margin-left: 0; }
+    .secondary-navigation ul li a {
+      text-decoration: none;
+      padding: 8px;
+      color: #7e6c6d; }
+.secondary-navigation .menu-secondary-menu-container {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
   width: 74.4105871005%;
-  margin-right: 0; }
-  .secondary-navigation:last-child {
+  padding-top: 12px; }
+  .secondary-navigation .menu-secondary-menu-container:last-child {
     margin-right: 0; }
-  .secondary-navigation ul {
-    text-align: right;
-    font-size: 12px;
-    font-size: 0.84rem; }
-    .secondary-navigation ul li {
-      display: inline-block;
-      margin-left: 0; }
-      .secondary-navigation ul li a {
-        text-decoration: none;
-        padding: 8px;
-        color: #7e6c6d; }
-  .secondary-navigation .menu-secondary-menu-container {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 74.4105871005%;
-    padding-top: 12px; }
-    .secondary-navigation .menu-secondary-menu-container:last-child {
-      margin-right: 0; }
-  .secondary-navigation .search-container {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%;
-    margin-top: 8px; }
-    .secondary-navigation .search-container:last-child {
-      margin-right: 0; }
+.secondary-navigation .search-container {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%;
+  margin-top: 8px; }
+  .secondary-navigation .search-container:last-child {
+    margin-right: 0; }
 
 .main-navigation {
   width: 100%;

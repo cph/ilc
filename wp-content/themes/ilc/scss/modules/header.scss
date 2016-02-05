@@ -7,10 +7,18 @@
 	@include span-columns(3);
 }
 
-.secondary-navigation {
-	@include span-columns(9);
-	@include omega();
+header {
+  .secondary-navigation {
+  display:none;
+  @include breakpoint(medium) { 
+    @include span-columns(9);
+    @include omega();
+   }
+}
+}
 
+.secondary-navigation {
+  
 	ul {
   text-align: right;
   @include font-size(12);
