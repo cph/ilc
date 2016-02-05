@@ -28,7 +28,8 @@
 			</div>
 		</div>
 		<div class="site-info">
-			
+			<a href="/ilconline/">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="mailto:office.manager@ilc-online.org?subject=International Lutheran Council">Contact</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.ilc-online.org/seminary-relations-committee/">"Seminary" Relations Committee</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.ilc-online.org/ilc-resources/">ILC Resources</a></p>				
+<p align="center">&copy; 2005 - <?php echo date("Y") ?> International Lutheran Council. All rights reserved.
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
