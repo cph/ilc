@@ -181,8 +181,7 @@ h1 + h2 {
   margin-top: 0; }
 
 p {
-  margin-bottom: 30px;
-  color: #737d85; }
+  margin-bottom: 30px; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
   text-decoration: none; }
@@ -623,6 +622,7 @@ header .secondary-navigation ul li:last-child a {
     display: block;
     margin-right: 2.3576515979%;
     width: 40.2913699012%;
+    background: #f0f0f0;
     height: 100%;
     min-height: 300px; }
     .latest-posts .post-image:last-child {

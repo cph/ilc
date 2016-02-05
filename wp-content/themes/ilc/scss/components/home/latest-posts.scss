@@ -20,6 +20,7 @@
 
 	.post-image {
 		@include span-columns(5);
+		background: $lite-grey;
 		height:100%;
 		min-height: 300px;
 	}
