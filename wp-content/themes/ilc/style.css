@@ -475,20 +475,30 @@ img.flex {
   margin-left: 25px;
   margin-bottom: 25px; }
 
-.container, .site-main {
+.container, .site-main, .site-content {
   max-width: 73.75em;
   margin-left: auto;
   margin-right: auto; }
-  .container, .site-main {
+  .container, .site-main, .site-content {
     *zoom: 1; }
-  .container:before, .container:after, .site-main:before, .site-main:after {
+  .container:before, .container:after, .site-main:before, .site-main:after, .site-content:before, .site-content:after {
     content: "";
     display: table; }
-  .container:after, .site-main:after {
+  .container:after, .site-main:after, .site-content:after {
     clear: both; }
 
 .site-content {
   min-height: 500px; }
+
+.content-area {
+  padding: 3em 0; }
+  .content-area #main {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 57.3509785009%; }
+    .content-area #main:last-child {
+      margin-right: 0; }
 
 .site-header {
   border-bottom: 1px solid #f0f0f0;

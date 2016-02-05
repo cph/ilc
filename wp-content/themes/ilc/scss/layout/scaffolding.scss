@@ -7,10 +7,19 @@
   }
 }
 
-.container, .site-main {
+.container, .site-main, .site-content {
 	@include outer-container($max-width + 5.75em);
 }
 
 .site-content {
 	min-height: 500px;
+}
+
+.content-area {
+
+		padding: 3em 0;
+		
+	#main {
+		@include span-columns(7);
+	}
 }

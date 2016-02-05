@@ -14,7 +14,7 @@
 
 get_header(); ?>
 	<?php putRevSlider( 'news-gallery-post-based5' ); ?>
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-home">
 		<main id="main" role="main">
 			<div id="home-posts" class="latest-posts">
 				<div class="container">
