@@ -671,7 +671,7 @@ footer {
   text-transform: uppercase; }
 
 .home .site-content {
-  width: 100%; }
+  max-width: 100%; }
 
 .latest-posts {
   background: #f0f0f0;

@@ -27,7 +27,7 @@ get_header(); ?>
 							<?php
 $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );
 ?>
-						<a href="<?php the_permalink(); ?>"><div class="post-image" style="background: url(<?php echo $src[0]; ?> ); background-size:cover; background-position: center top"> </div></a>
+						<a href="<?php the_permalink(); ?>"><div class="post-image" style="background: #737d85 url(<?php echo $src[0]; ?> ); background-size:cover; background-position: center top"> </div></a>
 						<div class="post-content">
 							<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 							<p><?php $content = get_the_content();
