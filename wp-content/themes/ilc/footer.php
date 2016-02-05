@@ -12,6 +12,9 @@
 ?>
 
 	</div><!-- #content -->
+	<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Above the Footer')) : ?>
+		[ do default stuff if no widgets ]
+	<?php endif; ?>
 <?php $twitter_url = get_theme_mod('twitter', ''); ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">

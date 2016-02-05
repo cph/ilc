@@ -1,4 +1,26 @@
 .email-signup {
 	padding: 4em 0;
 	background: $dark-blue;
+	text-align: center;
+	color: white;
+
+	h4 {
+		font-family: $primary-font;
+		text-transform: uppercase;
+		@include font-size(20);
+  	@include line-height (22);
+  	color: $lite-blue;
+	}
+	.form-group {
+		max-width: 450px;
+		margin:auto;
+
+		p {
+			margin-bottom: 1em;
+		}
+	}
+	.button {
+		background: $link-color;
+		border: none;
+	}
 }

@@ -352,8 +352,8 @@ form.button-inset {
   border-color: #3999d8; }
 
 .button-large {
-  font-size: 1.125em;
-  padding: 18px 32px;
+  font-size: 1.025em;
+  padding: 14px 28px;
   border-radius: 6px; }
 
 .button-small {
@@ -647,4 +647,22 @@ header .secondary-navigation ul li:last-child a {
 
 .email-signup {
   padding: 4em 0;
-  background: #042a46; }
+  background: #042a46;
+  text-align: center;
+  color: white; }
+  .email-signup h4 {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-size: 1.4rem;
+    line-height: 22px;
+    line-height: 1.54rem;
+    color: #e9f0f5; }
+  .email-signup .form-group {
+    max-width: 450px;
+    margin: auto; }
+    .email-signup .form-group p {
+      margin-bottom: 1em; }
+  .email-signup .button {
+    background: #3999d8;
+    border: none; }
