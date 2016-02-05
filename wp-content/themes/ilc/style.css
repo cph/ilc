@@ -627,6 +627,9 @@ header .secondary-navigation ul li:last-child a {
   position: absolute;
   padding: 0.5em; }
 
+a.fa-home.mega-menu-link {
+  font-size: 22px !important; }
+
 footer {
   padding: 2em 0; }
   footer .site-info {
@@ -666,6 +669,9 @@ footer {
   text-align: center;
   font-family: "Roboto Slab", serif;
   text-transform: uppercase; }
+
+.home .site-content {
+  width: 100%; }
 
 .latest-posts {
   background: #f0f0f0;
