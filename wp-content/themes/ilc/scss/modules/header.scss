@@ -90,6 +90,7 @@ header {
     @include border-radius(5px);
     color:white;
     padding: 8px 12px;
+    font-weight: 600;
   }
 }
 .search-container input.search-submit {

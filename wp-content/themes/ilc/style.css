@@ -570,7 +570,8 @@ header .secondary-navigation ul li:last-child a {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   color: white;
-  padding: 8px 12px; }
+  padding: 8px 12px;
+  font-weight: 600; }
 
 .search-container input.search-submit {
   position: absolute;
@@ -606,7 +607,8 @@ footer {
     background-clip: padding-box;
     /* stops bg color from leaking outside the border: */
     color: white;
-    padding: 8px 12px; }
+    padding: 8px 12px;
+    font-weight: 600; }
   footer ul.social-media-icons li a {
     font-size: 14px;
     font-size: 0.98rem;
@@ -616,7 +618,8 @@ footer {
     padding: 8px 12px;
     border-radius: 6px;
     color: white;
-    background: #3999d8; }
+    background: #3999d8;
+    font-weight: 600; }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
   display: table-cell;

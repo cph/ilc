@@ -14,6 +14,7 @@ footer {
     @include border-radius(5px);
     color:white;
     padding: 8px 12px;
+    font-weight: 600;
   }
 
  ul.social-media-icons li {
@@ -27,6 +28,7 @@ footer {
 	  border-radius: 6px;
     color: white;
     background: $blue;
+    font-weight: 600;
 
     &.facebook {
     	
