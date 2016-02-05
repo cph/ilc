@@ -86,6 +86,7 @@
 header {
   .secondary-navigation ul li:last-child a {
     background: $orange;
+    text-transform: uppercase;
     @include border-radius(5px);
     color:white;
     padding: 8px 12px;

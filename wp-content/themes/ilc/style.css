@@ -564,6 +564,7 @@ img.flex {
 
 header .secondary-navigation ul li:last-child a {
   background: #ec6041;
+  text-transform: uppercase;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   background-clip: padding-box;
@@ -595,14 +596,27 @@ footer {
     font-size: 12px;
     font-size: 0.84rem;
     color: #737d85; }
+  footer .secondary-navigation .menu-secondary-menu-container {
+    padding-top: 0; }
   footer ul#secondary-menu li:last-child a {
     background: #ec6041;
+    text-transform: uppercase;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     background-clip: padding-box;
     /* stops bg color from leaking outside the border: */
     color: white;
     padding: 8px 12px; }
+  footer ul.social-media-icons li a {
+    font-size: 14px;
+    font-size: 0.98rem;
+    text-transform: uppercase;
+    height: 20px;
+    width: 20px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    background: #3999d8; }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
   display: table-cell;

@@ -5,10 +5,33 @@ footer {
 		@include font-size(12);
 		color: $grey;
 	}
+	.secondary-navigation .menu-secondary-menu-container {
+		padding-top:0;
+	}
 	ul#secondary-menu li:last-child a {
     background: $orange;
+    text-transform: uppercase;
     @include border-radius(5px);
     color:white;
     padding: 8px 12px;
   }
+
+ ul.social-media-icons li {
+
+ 	a {
+ 		@include font-size(14);
+  	text-transform: uppercase;
+    height:20px;
+    width:20px;
+    padding: 8px 12px;
+	  border-radius: 6px;
+    color: white;
+    background: $blue;
+
+    &.facebook {
+    	
+    }
+ 	}
+
+	}
 }
