@@ -76,6 +76,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ilc-post-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32684,
+		"inputAbbreviatedPath": "\/images\/ilc-post-bg.png",
+		"outputAbbreviatedPath": "\/images\/ilc-post-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/inline-logo.svg.php": {
 		"fileType": 8192,
 		"ignore": 0,
