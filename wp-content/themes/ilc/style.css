@@ -831,7 +831,9 @@ article {
     max-width: 73.75em;
     margin-left: auto;
     margin-right: auto;
-    padding: 3em inherit; }
+    display: block;
+    padding-top: 3em;
+    padding-bottom: 3em; }
     .map .iwm_map_canvas {
       *zoom: 1; }
     .map .iwm_map_canvas:before, .map .iwm_map_canvas:after {
