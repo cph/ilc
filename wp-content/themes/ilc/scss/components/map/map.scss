@@ -1,7 +1,8 @@
 .map {
-	background: url(images/map-bg.png);
+	background: #90d1da;
 
 	.iwm_map_canvas {
-		padding: 3em;
+		@include outer-container($max-width + 5.75em);
+		padding:3em inherit;
 	}
 }

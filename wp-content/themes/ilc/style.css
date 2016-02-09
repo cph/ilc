@@ -826,6 +826,16 @@ article {
   display: inline-block; }
 
 .map {
-  background: url(images/map-bg.png); }
+  background: #90d1da; }
   .map .iwm_map_canvas {
-    padding: 3em; }
+    max-width: 73.75em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em inherit; }
+    .map .iwm_map_canvas {
+      *zoom: 1; }
+    .map .iwm_map_canvas:before, .map .iwm_map_canvas:after {
+      content: "";
+      display: table; }
+    .map .iwm_map_canvas:after {
+      clear: both; }
