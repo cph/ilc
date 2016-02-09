@@ -44,5 +44,13 @@
 			</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+	
+	<?php
+		// Adding Map to pages
+		if(get_field('add_a_map'))
+		{
+			echo '<div class="map">' . get_field('add_a_map') . '</div>';
+		}
 
+		?>
 	<div id="content" class="site-content">
