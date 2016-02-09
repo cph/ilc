@@ -552,12 +552,12 @@ figcaption {
     .content-area #main:last-child, .content-blog #main:last-child, .content-page #main:last-child {
       margin-right: 0; }
 
-#aside {
+#secondary {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
   width: 31.7615656014%; }
-  #aside:last-child {
+  #secondary:last-child {
     margin-right: 0; }
 
 .site-header {
