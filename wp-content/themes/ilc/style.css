@@ -824,3 +824,8 @@ article {
 .nav-links a {
   padding: 1em;
   display: inline-block; }
+
+.map {
+  background: url(images/map-bg.png); }
+  .map .iwm_map_canvas {
+    padding: 3em; }
