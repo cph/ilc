@@ -18,7 +18,7 @@
 .content-area, .content-blog, .content-page {
 
 		padding: 3em 0;
-		display: inline-block;
+		// display: inline-block;
 		
 	#main {
 		@include span-columns(8);
@@ -34,6 +34,8 @@
 // 	}
 // }
 
-#secondary {
-	@include span-columns(4);
+@include direction-context(right-to-left) {
+	#secondary {
+		@include span-columns(3);	
+	}
 }

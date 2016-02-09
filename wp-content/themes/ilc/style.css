@@ -542,8 +542,7 @@ figcaption {
   min-height: 500px; }
 
 .content-area, .content-blog, .content-page {
-  padding: 3em 0;
-  display: inline-block; }
+  padding: 3em 0; }
   .content-area #main, .content-blog #main, .content-page #main {
     float: left;
     display: block;
@@ -553,12 +552,12 @@ figcaption {
       margin-right: 0; }
 
 #secondary {
-  float: left;
+  float: right;
   display: block;
-  margin-right: 2.3576515979%;
-  width: 31.7615656014%; }
+  margin-left: 2.3576515979%;
+  width: 23.2317613015%; }
   #secondary:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
 
 .site-header {
   border-bottom: 1px solid #f0f0f0;
