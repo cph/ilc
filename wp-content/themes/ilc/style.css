@@ -541,15 +541,15 @@ figcaption {
 .site-content {
   min-height: 500px; }
 
-.content-area, .content-blog {
+.content-area, .content-blog, .content-page {
   padding: 3em 0;
   display: inline-block; }
-  .content-area #main, .content-blog #main {
+  .content-area #main, .content-blog #main, .content-page #main {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 65.8807828007%; }
-    .content-area #main:last-child, .content-blog #main:last-child {
+    .content-area #main:last-child, .content-blog #main:last-child, .content-page #main:last-child {
       margin-right: 0; }
 
 #aside {
