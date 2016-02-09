@@ -14,13 +14,20 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
+	<div id="primary" class="content-page">
+		<main id="main" class="site-main-page" role="main">
 			<?php
 			while ( have_posts() ) : the_post();
 				// Adding Map to pages
-				the_field('add_a_map');
+				$value = get_field( "add_a_map" );
+
+					if( $value ) {
+				    
+					    echo '<div class="map">' .$value. '</div>';
+					} else {
+					    echo '';
+					    
+					}
 
 				get_template_part( 'template-parts/content', 'page' );
 
@@ -31,7 +38,6 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
