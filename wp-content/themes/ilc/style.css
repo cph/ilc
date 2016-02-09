@@ -538,24 +538,22 @@ figcaption {
   .container:after, .site-main:after, .site-content:after {
     clear: both; }
 
-.site-content {
-  min-height: 500px; }
-
-.content-area, .content-blog, .content-page {
-  padding: 3em 0; }
-  .content-area #main, .content-blog #main, .content-page #main {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 65.8807828007%; }
-    .content-area #main:last-child, .content-blog #main:last-child, .content-page #main:last-child {
-      margin-right: 0; }
+.content-area #main, .content-blog #main, .content-page #main {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 74.4105871005%;
+  border-right: 1px solid #f0f0f0;
+  padding: 3em 4em 3em 0; }
+  .content-area #main:last-child, .content-blog #main:last-child, .content-page #main:last-child {
+    margin-right: 0; }
 
 #secondary {
   float: right;
   display: block;
   margin-left: 2.3576515979%;
-  width: 23.2317613015%; }
+  width: 23.2317613015%;
+  padding: 3em 0 3em 4em; }
   #secondary:last-child {
     margin-left: 0; }
 
