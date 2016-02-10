@@ -78,6 +78,17 @@ aside {
     	&:last-child a {
     			border-bottom: none;
     		}
+
+     ul.sub-menu li a {
+			padding: 0.75em 2em;
+	     &:before {
+	     	content: '–';
+	    	margin-right: 7px;
+	     }
+	     &:last-child a {
+	     	border-bottom: 1px solid $lite-grey;
+	     }
+	   }
     }
   }
 	}

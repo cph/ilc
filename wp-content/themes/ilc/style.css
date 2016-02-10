@@ -590,6 +590,13 @@ aside {
           background: #e9f0f5; }
       aside section li:last-child a {
         border-bottom: none; }
+      aside section li ul.sub-menu li a {
+        padding: 0.75em 2em; }
+        aside section li ul.sub-menu li a:before {
+          content: '–';
+          margin-right: 7px; }
+        aside section li ul.sub-menu li a:last-child a {
+          border-bottom: 1px solid #f0f0f0; }
 
 .site-header {
   border-bottom: 1px solid #f0f0f0;
