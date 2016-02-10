@@ -709,6 +709,9 @@ a.fa-home.mega-menu-link {
   background: #e9f0f5;
   padding: 30px 0; }
 
+.home .page-header {
+  display: none; }
+
 footer {
   padding: 2em 0; }
   footer .site-info {
