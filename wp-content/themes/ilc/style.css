@@ -595,8 +595,8 @@ aside {
         aside section li ul.sub-menu li a:before {
           content: '–';
           margin-right: 7px; }
-        aside section li ul.sub-menu li a:last-child a {
-          border-bottom: 1px solid #f0f0f0; }
+      aside section li ul.sub-menu li:last-child a {
+        border-bottom: 1px solid #f0f0f0; }
 
 .site-header {
   border-bottom: 1px solid #f0f0f0;
