@@ -134,8 +134,11 @@ figcaption {
 #breadcrumbs {
     margin-bottom: 3em;
     color: $grey;
-}
 
-#breadcrumbs i {
+    a {
+      text-decoration: none;
+    }
+    i {
     margin: 0 10px;
+  }
 }

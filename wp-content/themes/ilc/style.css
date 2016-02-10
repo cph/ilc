@@ -532,9 +532,10 @@ figcaption {
 #breadcrumbs {
   margin-bottom: 3em;
   color: #737d85; }
-
-#breadcrumbs i {
-  margin: 0 10px; }
+  #breadcrumbs a {
+    text-decoration: none; }
+  #breadcrumbs i {
+    margin: 0 10px; }
 
 .container, .site-main, .site-content {
   max-width: 73.75em;
