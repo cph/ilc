@@ -22,7 +22,7 @@
 		
 	#main {
 		@include span-columns(9);
-		border-right: 1px solid $lite-grey;
+		// border-right: 1px solid $lite-grey;
 		padding: 3em 4em 3em 0;
 	}
 }
@@ -36,9 +36,48 @@
 // 	}
 // }
 
-@include direction-context(right-to-left) {
-	#secondary {
-		@include span-columns(3);
-		padding: 3em 0 3em 4em;
+
+aside {
+		@include span-columns(3, block-collapse);
+
+	section {
+		// padding: 2em 3em;
+    
+    margin-top: 3em;
+    border-radius: 3px;
+    border: 1px solid $lite-grey;
+
+    h4 {
+    	padding: 1em 2em 0.875em;
+    	background: rgba($lite-grey, 0.25);
+	    border-bottom: 1px solid rgba($grey, 0.25);
+	    text-transform: uppercase;
+	    color: rgba($grey, 0.65);
+	    font-size: 1em;
+	    margin: 0;
+    }
+    ul {
+    	margin-bottom: 0;
+    }
+    li {
+    	margin-left:0;
+    	margin-bottom: 0;
+
+    	a {
+    		padding: 0.875em 2em;
+    		border-bottom: 1px solid $lite-grey;
+    		display: block;
+    		text-decoration: none;
+    		transform: all ease 500ms;
+
+    		&:hover {
+    			background: $lite-blue;
+    		}
+    	}
+
+    	&:last-child a {
+    			border-bottom: none;
+    		}
+    }
+  }
 	}
-}

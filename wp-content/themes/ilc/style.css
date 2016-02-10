@@ -553,19 +553,43 @@ figcaption {
   display: block;
   margin-right: 2.3576515979%;
   width: 74.4105871005%;
-  border-right: 1px solid #f0f0f0;
   padding: 3em 4em 3em 0; }
   .content-area #main:last-child, .content-blog #main:last-child, .content-page #main:last-child {
     margin-right: 0; }
 
-#secondary {
-  float: right;
+aside {
+  float: left;
   display: block;
-  margin-left: 2.3576515979%;
-  width: 23.2317613015%;
-  padding: 3em 0 3em 4em; }
-  #secondary:last-child {
-    margin-left: 0; }
+  width: 25.5894128995%; }
+  aside:last-child {
+    width: 23.2317613015%; }
+  aside section {
+    margin-top: 3em;
+    border-radius: 3px;
+    border: 1px solid #f0f0f0; }
+    aside section h4 {
+      padding: 1em 2em 0.875em;
+      background: rgba(240, 240, 240, 0.25);
+      border-bottom: 1px solid rgba(115, 125, 133, 0.25);
+      text-transform: uppercase;
+      color: rgba(115, 125, 133, 0.65);
+      font-size: 1em;
+      margin: 0; }
+    aside section ul {
+      margin-bottom: 0; }
+    aside section li {
+      margin-left: 0;
+      margin-bottom: 0; }
+      aside section li a {
+        padding: 0.875em 2em;
+        border-bottom: 1px solid #f0f0f0;
+        display: block;
+        text-decoration: none;
+        transform: all ease 500ms; }
+        aside section li a:hover {
+          background: #e9f0f5; }
+      aside section li:last-child a {
+        border-bottom: none; }
 
 .site-header {
   border-bottom: 1px solid #f0f0f0;
