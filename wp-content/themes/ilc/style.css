@@ -526,6 +526,13 @@ figcaption {
   margin-left: 25px;
   margin-bottom: 25px; }
 
+#breadcrumbs {
+  margin-bottom: 3em;
+  color: #737d85; }
+
+#breadcrumbs i {
+  margin: 0 10px; }
+
 .container, .site-main, .site-content {
   max-width: 73.75em;
   margin-left: auto;
@@ -829,7 +836,9 @@ span.tags-links {
 
 article {
   margin-bottom: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 4em; }
+
+.content-blog article {
   border-bottom: 1px solid #737d85; }
 
 .nav-links .nav-previous {

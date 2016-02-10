@@ -130,3 +130,12 @@ figcaption {
   margin-left:25px;
   margin-bottom: 25px;
 }
+
+#breadcrumbs {
+    margin-bottom: 3em;
+    color: $grey;
+}
+
+#breadcrumbs i {
+    margin: 0 10px;
+}
