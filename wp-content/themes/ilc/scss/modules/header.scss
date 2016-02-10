@@ -124,3 +124,10 @@ header {
 a.fa-home.mega-menu-link {
     font-size: 22px !important;
 }
+
+//Custom Headers
+
+.page-header, .blog-header {
+  background: $lite-blue;
+  padding: 30px 0;
+}

@@ -16,8 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-page">
 		<main id="main" class="site-main" role="main">
-			<?php if ( function_exists('yoast_breadcrumb') ) 
-			{yoast_breadcrumb('<div id="breadcrumbs">','</div>');} ?>
+			
 			<?php
 			while ( have_posts() ) : the_post();
 				

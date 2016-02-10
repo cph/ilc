@@ -530,7 +530,6 @@ figcaption {
   margin-bottom: 25px; }
 
 #breadcrumbs {
-  margin-bottom: 3em;
   color: #737d85; }
   #breadcrumbs a {
     text-decoration: none; }
@@ -705,6 +704,10 @@ header .secondary-navigation ul li:last-child a {
 
 a.fa-home.mega-menu-link {
   font-size: 22px !important; }
+
+.page-header, .blog-header {
+  background: #e9f0f5;
+  padding: 30px 0; }
 
 footer {
   padding: 2em 0; }
