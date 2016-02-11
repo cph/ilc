@@ -545,6 +545,8 @@ figcaption {
   color: #737d85; }
   #breadcrumbs a {
     text-decoration: none; }
+    #breadcrumbs a:visited {
+      color: #3999d8; }
   #breadcrumbs i {
     margin: 0 10px; }
 

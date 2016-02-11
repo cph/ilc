@@ -137,6 +137,10 @@ figcaption {
 
     a {
       text-decoration: none;
+
+      &:visited {
+        color: $link-color;
+      }
     }
     i {
     margin: 0 10px;
