@@ -1,10 +1,10 @@
 .map {
-	background: #1D6973;
+	background: #a3d0ff;
 
 	.iwm_map_canvas {
 		@include outer-container($max-width + 5.75em);
 		display: block;
-		padding-top:3em;
-		padding-bottom:3em;
+		// padding-top:3em;
+		// padding-bottom:3em;
 	}
 }

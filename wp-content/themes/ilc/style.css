@@ -924,14 +924,12 @@ article {
   display: inline-block; }
 
 .map {
-  background: #1D6973; }
+  background: #a3d0ff; }
   .map .iwm_map_canvas {
     max-width: 73.75em;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    padding-top: 3em;
-    padding-bottom: 3em; }
+    display: block; }
     .map .iwm_map_canvas {
       *zoom: 1; }
     .map .iwm_map_canvas:before, .map .iwm_map_canvas:after {
