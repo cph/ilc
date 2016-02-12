@@ -25,9 +25,10 @@ get_header(); ?>
 					foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 					<div class="post-container">
 							<?php
-$src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );
+$src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
+        $thumbnailSrc = $src[0];
 ?>
-						<a href="<?php the_permalink(); ?>"><div class="post-image" style="background: url(<?php bloginfo('template_directory'); ?>/images/ilc-post-bg.png); background: url(<?php echo $src[0]; ?> ); background-size:cover; background-position: center top"> </div></a>
+						<a href="<?php the_permalink(); ?>"><div class="post-image" style="background: url(<?php bloginfo('template_directory'); ?>/images/ilc-post-bg.png); background:#737d85 url(<?php echo $thumbnailSrc; ?> ); background-size:cover; background-position: center top"> </div></a>
 						<div class="post-content">
 							<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 							<p><?php $content = get_the_content();
