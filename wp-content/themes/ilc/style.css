@@ -836,6 +836,13 @@ footer {
       margin-bottom: 1em;
       color: #737d85; }
 
+.home-about {
+  padding: 3em 0;
+  text-align: center;
+  background: #c2f4a6 url(images/map-green-bg.png);
+  background-position: center;
+  color: #042a46; }
+
 .email-signup {
   padding: 4em 0;
   background: #042a46;

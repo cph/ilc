@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-	<?php putRevSlider( 'news-gallery-post-based5' ); ?>
+	<?php //putRevSlider( 'news-gallery-post-based5' ); ?>
 	<div id="primary" class="content-home">
 		<main id="main" role="main">
 			<div id="home-posts" class="latest-posts">
@@ -43,6 +43,23 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 					
 				</div>
 			</div><!-- #home-posts -->
+
+			<div class="home-about">
+				<div class="post-container">
+				<?php
+			while ( have_posts() ) : the_post();
+				
+				get_template_part( 'template-parts/content', 'page' );
+
+				// If comments are open or we have at least one comment, load up the comment template.
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+
+			endwhile; // End of the loop.
+			?>
+			</div>
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
