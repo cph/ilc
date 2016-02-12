@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-	<?php //putRevSlider( 'news-gallery-post-based5' ); ?>
+	<?php putRevSlider( 'news-gallery-post-based5' ); ?>
 	<div id="primary" class="content-home">
 		<main id="main" role="main">
 			<div id="home-posts" class="latest-posts">
@@ -45,7 +45,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 			</div><!-- #home-posts -->
 
 			<div class="home-about">
-				<div class="post-container">
+				<div class="container">
 				<?php
 			while ( have_posts() ) : the_post();
 				

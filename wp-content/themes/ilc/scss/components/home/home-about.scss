@@ -1,7 +1,17 @@
 .home-about {
-	padding: 3em 0;
+	padding: 2em 1em;
+	@include breakpoint(small) { padding: 3em 0; }
 	text-align:center;
 	background: #c2f4a6 url(images/map-green-bg.png);
 	background-position: center;
 	color: $dark-blue;
+
+	a {
+		color:$dark-blue;
+	}
+
+	.button, .button:visited {
+		color:$dark-blue;
+		border-color: $dark-blue;
+	}
 }

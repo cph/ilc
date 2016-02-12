@@ -800,32 +800,41 @@ footer {
     text-align: center;
     margin-bottom: 1.5em; }
   .latest-posts .post-container {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 48.821174201%;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
     background: white;
     height: 100%; }
-    .latest-posts .post-container:last-child {
-      margin-right: 0; }
+    @media (min-width: 64.375em) {
+      .latest-posts .post-container {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 48.821174201%; }
+        .latest-posts .post-container:last-child {
+          margin-right: 0; } }
   .latest-posts .post-image {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 40.2913699012%;
     background: #f0f0f0;
     height: 100%;
     min-height: 300px; }
-    .latest-posts .post-image:last-child {
-      margin-right: 0; }
+    @media (min-width: 37.5em) {
+      .latest-posts .post-image {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 40.2913699012%; }
+        .latest-posts .post-image:last-child {
+          margin-right: 0; } }
   .latest-posts .post-content {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 57.3509785009%;
     padding: 2em; }
-    .latest-posts .post-content:last-child {
-      margin-right: 0; }
+    @media (min-width: 37.5em) {
+      .latest-posts .post-content {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 57.3509785009%; }
+        .latest-posts .post-content:last-child {
+          margin-right: 0; } }
     .latest-posts .post-content h4 a {
       color: #042a46; }
     .latest-posts .post-content p {
@@ -837,11 +846,19 @@ footer {
       color: #737d85; }
 
 .home-about {
-  padding: 3em 0;
+  padding: 2em 1em;
   text-align: center;
   background: #c2f4a6 url(images/map-green-bg.png);
   background-position: center;
   color: #042a46; }
+  @media (min-width: 37.5em) {
+    .home-about {
+      padding: 3em 0; } }
+  .home-about a {
+    color: #042a46; }
+  .home-about .button, .home-about .button:visited {
+    color: #042a46;
+    border-color: #042a46; }
 
 .email-signup {
   padding: 4em 0;
