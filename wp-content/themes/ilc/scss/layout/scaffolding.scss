@@ -21,9 +21,11 @@
 		// display: inline-block;
 		
 	#main {
-		@include span-columns(9);
+        padding: 1em;
+        @include breakpoint(small) { padding: 2em; }
+		@include breakpoint(large) { @include span-columns(9);
 		// border-right: 1px solid $lite-grey;
-		padding: 3em 4em 3em 0;
+		padding: 3em 4em 3em 0;}
 	}
 }
 
@@ -38,7 +40,11 @@
 
 
 aside {
-		@include span-columns(3, block-collapse);
+        padding: 1em;
+        @include breakpoint(small) { padding: 2em; }
+		@include breakpoint(large) { @include span-columns(3, block-collapse);
+        padding: 0;
+         }
 
 	section {
 		// padding: 2em 3em;

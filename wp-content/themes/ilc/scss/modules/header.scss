@@ -129,7 +129,9 @@ a.fa-home.mega-menu-link {
 
 .page-header, .blog-header {
   background: $lite-blue;
-  padding: 30px 0;
+  padding: 1em;
+  @include breakpoint(small) { padding: 2em ; }
+  @include breakpoint(large) { padding: 30px 0; }
 }
 .home .page-header {
   display: none;
