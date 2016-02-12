@@ -776,10 +776,10 @@ footer {
     background: #3999d8;
     font-weight: 600; }
 
-#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
-  display: table-cell;
-  width: 1%; }
-
+@media (min-width: 37.5em) {
+  #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+    display: table-cell;
+    width: 1%; } }
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
   text-align: center;
   font-family: "Roboto Slab", serif;

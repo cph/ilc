@@ -1,6 +1,8 @@
-#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
-display: table-cell;
-width: 1%;
+@include breakpoint(small) {
+	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+		display: table-cell;
+		width: 1%;
+	}
 }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
