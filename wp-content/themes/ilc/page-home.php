@@ -37,6 +37,9 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
 					?>…
 					</p><a class="button" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">Read More <i class="fa fa-chevron-right"></i></a>
 						</div>
+						<p>
+							<a class="button" href="/blog">View More <i class="fa fa-chevron-right"></i></a>
+						</p>
 					</div>
 					<?php endforeach; 
 					wp_reset_postdata();?>
