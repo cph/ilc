@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-	<?php putRevSlider( 'news-gallery-post-based5' ); ?>
+	<?php putRevSlider( 'ilc_home_banner' ); ?>
 	<div id="primary" class="content-home">
 		<main id="main" role="main">
 			<div id="home-posts" class="latest-posts">

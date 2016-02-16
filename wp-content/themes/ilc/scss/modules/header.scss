@@ -115,6 +115,9 @@ header {
 .search-container form.search-form, .search-container form {
     position: relative;
 }
+.search-container form label {
+  display: none;
+}
 
 .search-container input.search-field, .search-container input.field {
     position: absolute;
