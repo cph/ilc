@@ -1,5 +1,6 @@
 .map {
 	background: #a3d0ff;
+	margin-top: -50px;
 
 	.iwm_map_canvas {
 		@include outer-container($max-width + 5.75em);

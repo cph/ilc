@@ -101,7 +101,7 @@ header {
     font-weight: 600;
   }
 }
-.search-container input.search-submit {
+.search-container input.search-submit, .search-container input.submit {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -112,14 +112,15 @@ header {
     display: none; //to be resolved 
 }
 
-.search-container form.search-form {
+.search-container form.search-form, .search-container form {
     position: relative;
 }
 
-.search-container input.search-field {
+.search-container input.search-field, .search-container input.field {
     position: absolute;
     padding:0.5em;
 }
+
 
 a.fa-home.mega-menu-link {
     font-size: 22px !important;
@@ -128,7 +129,7 @@ a.fa-home.mega-menu-link {
 //Custom Headers
 
 .page-header, .blog-header {
-  background: $lite-blue;
+  background: $sea-blue;
   padding: 1em;
   @include breakpoint(small) { padding: 2em ; }
   @include breakpoint(large) { padding: 30px 0; }

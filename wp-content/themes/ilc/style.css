@@ -542,7 +542,7 @@ figcaption {
   margin-bottom: 25px; }
 
 #breadcrumbs {
-  color: #737d85; }
+  color: #F8FAFD; }
   #breadcrumbs a {
     text-decoration: none; }
     #breadcrumbs a:visited {
@@ -712,7 +712,7 @@ header .secondary-navigation ul li:last-child a {
   padding: 8px 12px;
   font-weight: 600; }
 
-.search-container input.search-submit {
+.search-container input.search-submit, .search-container input.submit {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -722,10 +722,10 @@ header .secondary-navigation ul li:last-child a {
   background: transparent;
   display: none; }
 
-.search-container form.search-form {
+.search-container form.search-form, .search-container form {
   position: relative; }
 
-.search-container input.search-field {
+.search-container input.search-field, .search-container input.field {
   position: absolute;
   padding: 0.5em; }
 
@@ -733,7 +733,7 @@ a.fa-home.mega-menu-link {
   font-size: 22px !important; }
 
 .page-header, .blog-header {
-  background: #e9f0f5;
+  background: #a3d0ff;
   padding: 1em; }
   @media (min-width: 37.5em) {
     .page-header, .blog-header {
@@ -967,7 +967,8 @@ span.tags-links {
   display: inline-block; }
 
 .map {
-  background: #a3d0ff; }
+  background: #a3d0ff;
+  margin-top: -50px; }
   .map .iwm_map_canvas {
     max-width: 73.75em;
     margin-left: auto;
