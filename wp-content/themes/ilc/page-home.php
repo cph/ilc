@@ -43,7 +43,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
 						
 				</div>
 				<div class="container">
-					<p>
+					<p style="text-align: center;">
 							<a class="button" href="/blog">View More <i class="fa fa-chevron-right"></i></a>
 						</p>
 				</div>
