@@ -68,6 +68,13 @@
 							<h1 id="page_header" class="page-title">Blog</h1>
 						</div>
 					</header>
+					<?php elseif ( is_archive() ) : ?>
+					<header class="entry-header blog-header">
+						<div class="container">
+							<?php if ( function_exists('yoast_breadcrumb') ) 
+						{yoast_breadcrumb('<div id="breadcrumbs">','</div>');} ?>
+						</div>
+					</header>
 					<?php elseif ( is_single() ) : ?>
 						<?php // the_title( '<h1 id="page_header" class="entry-title">', '</h1>' ); ?>		
 					<?php else : ?>
