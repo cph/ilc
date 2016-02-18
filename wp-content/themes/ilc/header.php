@@ -68,6 +68,15 @@
 							<h1 id="page_header" class="page-title">Blog</h1>
 						</div>
 					</header>
+					<?php elseif ( is_archive() ) : ?>
+					<header class="entry-header blog-header">
+						<div class="container">
+							<?php
+								the_archive_title( '<h1 class="page-title">', '</h1>' );
+								the_archive_description( '<div class="taxonomy-description">', '</div>' );
+							?>
+						</div>
+					</header>
 					<?php elseif ( is_single() ) : ?>
 						<?php // the_title( '<h1 id="page_header" class="entry-title">', '</h1>' ); ?>		
 					<?php else : ?>
