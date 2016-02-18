@@ -71,10 +71,8 @@
 					<?php elseif ( is_archive() ) : ?>
 					<header class="entry-header blog-header">
 						<div class="container">
-							<?php
-								the_archive_title( '<h1 class="page-title">', '</h1>' );
-								the_archive_description( '<div class="taxonomy-description">', '</div>' );
-							?>
+							<?php if ( function_exists('yoast_breadcrumb') ) 
+						{yoast_breadcrumb('<div id="breadcrumbs">','</div>');} ?>
 						</div>
 					</header>
 					<?php elseif ( is_single() ) : ?>

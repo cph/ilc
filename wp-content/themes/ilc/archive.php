@@ -15,6 +15,11 @@ get_header(); ?>
 		<?php
 		if ( have_posts() ) : ?>
 
+				<?php
+					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					the_archive_description( '<div class="taxonomy-description">', '</div>' );
+				?>
+			
 
 			<?php
 			/* Start the Loop */
