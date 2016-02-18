@@ -20,7 +20,6 @@ get_header(); ?>
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			
-
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();
